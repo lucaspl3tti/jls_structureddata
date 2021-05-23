@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2012-10-30T10:49:30Z"
+          product-name="spaeter">
+        <header/>
+        <body>
+            <trans-unit id="jls_structureddata.data.controller">
+                <source>Structured Data Plugin</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action">
+                <source>Data Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.0">
+                <source>Please Choose</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.1">
+                <source>Product</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.2">
+                <source>Website</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.3">
+                <source>Person</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.4">
+                <source>Local Business</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.5">
+                <source>Event</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.6">
+                <source>Organization</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.7">
+                <source>Article</source>
+            </trans-unit>
+            <trans-unit id="flexform.Action.8">
+                <source>JobPosting</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.personName">
+                <source>Person's name</source>
+            </trans-unit>
+            <trans-unit id="flexform.personAlternateName">
+                <source>Alternate name</source>
+            </trans-unit>
+            <trans-unit id="flexform.personUrl">
+                <source>URL (include the protocol)</source>
+            </trans-unit>
+            <trans-unit id="flexform.personPictureUrl">
+                <source>Picture URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.personJobTitle">
+                <source>Job title</source>
+            </trans-unit>
+            <trans-unit id="flexform.personCompany">
+                <source>Company</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="flexform.description">
+                <source>Description</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.productBrand">
+                <source>Product Brand</source>
+            </trans-unit>
+            <trans-unit id="flexform.productName">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.productPictureUrl">
+                <source>Picture URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.productDescription">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingType">
+                <source>Rating Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingValue">
+                <source>Rating Value</source>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingBest">
+                <source>Best Rating</source>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingWorst">
+                <source>Worst Rating</source>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingCount">
+                <source>Rating Count</source>
+            </trans-unit>
+
+
+
+            <trans-unit id="flexform.websiteName">
+                <source>Website Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.websiteAlternateName">
+                <source>Alternate Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.websiteUrl">
+                <source>URL</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.businessType">
+                <source>Business Type</source>
+            </trans-unit>
+                    <trans-unit id="flexform.businessTypePC">
+                          <source>Please Choose...</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessTypeAS">
+                          <source>Animal Shelter</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessTypeCC">
+                          <source>Child Care</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessTypeEnt">
+                          <source>Entertainment</source>
+                    </trans-unit>
+            <trans-unit id="flexform.businessName">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessUrl">
+                <source>URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessAlternateUrl">
+                <source>Alternate URL</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.businessLogo">
+                <source>Logo</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessPictureUrl">
+                <source>Picture URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessDescription">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessStreetAddress">
+                <source>Street</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessLocality">
+                <source>Locality</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessRegion">
+                <source>Region</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessPostalCode">
+                <source>Postal Code</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessCountry">
+                <source>Country</source>
+            </trans-unit>
+                    <trans-unit id="flexform.businessCountryGermany">
+                          <source>Germany</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessCountryAustria">
+                          <source>Austria</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessCountryUsa">
+                          <source>United States of America</source>
+                    </trans-unit>
+            <trans-unit id="flexform.businessLatitude">
+                <source>Latitude</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessLongitude">
+                <source>Longitude</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.businessOpeningHours">
+                <source>Opening Hours</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessTelephone">
+                <source>Telephone</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessContactType">
+                <source>Contact Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessPriceRange">
+                <source>Price Range</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessInstagram">
+                <source>Instagram Link</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessFacebook">
+                <source>Facebook Link</source>
+            </trans-unit>
+            <trans-unit id="flexform.businessTwitter">
+                <source>Twitter Link</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.eventType">
+                <source>Event Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventName">
+                <source>Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventUrl">
+                <source>URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventPictureUrl">
+                <source>Picture URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventDescription">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventStartDate">
+                <source>Start Date</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventEndDate">
+                <source>End Date</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.eventLocationName">
+                <source>Location Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventLocationType">
+                <source>Location Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventPerformerType">
+                <source>Performer Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventPerformer">
+                <source>Performer</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.eventStreetAddress">
+                <source>Street Address</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventLocality">
+                <source>Locality</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventRegion">
+                <source>Region</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventPostalCode">
+                <source>Postal Code</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventCountry">
+                <source>Country</source>
+            </trans-unit>
+
+            <trans-unit id="flexform.eventOfferName">
+                <source>Offer Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferPrice">
+                <source>Offer Price</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferPriceCurrency">
+                <source>Offer Currency</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferValidFrom">
+                <source>Offer available From</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferUrl">
+                <source>Offer URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferAvailability">
+                <source>Offer Availability</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.organizationName">
+                <source>Organization Name</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationUrl">
+                <source>URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationLogoUrl">
+                <source>Logo URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationDescription">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationStreetAddress">
+                <source>Street</source>d
+            </trans-unit>
+            <trans-unit id="flexform.organizationLocality">
+                <source>City</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationRegion">
+                <source>Region</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationPostalCode">
+                <source>Postal Code</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationCountry">
+                <source>Country</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationOpeningHours">
+                <source>Opening Hours</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationClosingHours">
+                <source>Closing Hours</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationTelephone">
+                <source>Telephone</source>
+            </trans-unit>
+            <trans-unit id="flexform.organizationContactType">
+                <source>Contact Type</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.articleType">
+                <source>Article Type</source>
+            </trans-unit>
+            <trans-unit id="flexform.articleHeadline">
+                <source>Headline</source>
+            </trans-unit>
+            <trans-unit id="flexform.articleImageUrl">
+                <source>Image URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.articleAuthor">
+                <source>Author</source>
+            </trans-unit>
+            <trans-unit id="flexform.articleDatePublished">
+                <source>Date Published</source>
+            </trans-unit>
+            <trans-unit id="flexform.articlePublisher">
+                <source>Publisher</source>
+            </trans-unit>
+            <trans-unit id="flexform.articleDateModified">
+                <source>Date Modified (recommended)</source>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.jobpostingTitle">
+                <source>Job's Title</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingDescription">
+                <source>Job's Description</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingOrganizationName">
+                <source>Company</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingCompanyUrl">
+                <source>Company URL</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingCompanyIndustry">
+                <source>Industry</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingEmploymentType">
+                <source>Employment Type</source>
+            </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypePC">
+                          <source>Please Choose...</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeFT">
+                          <source>Full Time</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypePT">
+                          <source>Part Time</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeContractor">
+                          <source>Contractor</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeTemporary">
+                          <source>Temporary</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeIntern">
+                          <source>Intern</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeVolunteer">
+                          <source>Volunteer</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypePD">
+                          <source>Per Diem</source>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeOther">
+                          <source>Other</source>
+                    </trans-unit>
+            <trans-unit id="flexform.jobpostingWorkHours">
+                <source>Work Hours (e.g. 8am-5pm, shift)</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingDatePosted">
+                <source>Date Posted</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingExpireDate">
+                <source>Expire Date</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingValidThrough">
+                <source>Valid Through</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingStreetAddress">
+                <source>Street</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingLocality">
+                <source>City</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingPostalCode">
+                <source>Zip Code</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingCountry">
+                <source>Country</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingRegion">
+                <source>Region</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryMinValue">
+                <source>Minimal Value</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryMaxValue">
+                <source>Maximal Value</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryCurrency">
+                <source>Currency</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryPer">
+                <source>Per...</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingResponsibilities">
+                <source>Responsibilities</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSkills">
+                <source>Skills</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingQualifications">
+                <source>Qualifications</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingEducationRequirements">
+                <source>Education Requirements</source>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingExperienceRequirements">
+                <source>Experience Requirements</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

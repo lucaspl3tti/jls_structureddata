@@ -1,0 +1,21 @@
+<script type='application/ld+json'>
+<f:format.raw>{</f:format.raw>
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "{settings.organizationName}",
+  "url": "{f:uri.typolink(parameter: settings.organizationUrl, absolute: 1)}",
+  "logo": "{f:uri.image(src: settings.organizationLogoUrl, absolute: 1)}"
+
+  <f:if condition="{settings.organizationDescription}">
+     ,"description": "{settings.organizationDescription}"
+  </f:if>
+
+  <f:if condition="{settings.organizationTelephone}">
+     ,"telephone": "{settings.organizationTelephone}"
+  </f:if>
+  <f:if condition="{settings.organizationContactType}">
+     ,"contactType": "{settings.organizationContactType}"
+  </f:if>
+}
+ </script>
+

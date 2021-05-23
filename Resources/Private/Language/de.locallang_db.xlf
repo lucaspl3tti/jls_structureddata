@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2012-10-30T10:49:30Z"
+          product-name="">
+        <header/>
+        <body>
+            <trans-unit id="jls_structureddata.data.controller">
+                <target>Structured Data Plugin</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action">
+                <target>Daten Typ</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.0">
+                <target>Bitte auswählen</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.1">
+                <target>Produkt</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.2">
+                <target>Webseite</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.3">
+                <target>Person</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.4">
+                <target>Lokales Geschäft</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.5">
+                <target>Veranstaltung</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.6">
+                <target>Organisation</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.7">
+                <target>Artikel</target>
+            </trans-unit>
+            <trans-unit id="flexform.Action.8">
+                <target>Job Angebot</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.personName">
+                <target>Personen Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.personAlternateName">
+                <target>Alternativer Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.personUrl">
+                <target>URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.personPictureUrl">
+                <target>Bild URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.personJobTitle">
+                <target>Job Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.personCompany">
+                <target>Firma</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.title">
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="flexform.description">
+                <target>Beschreibung</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.productBrand">
+                <target>Produkt Marke</target>
+            </trans-unit>
+            <trans-unit id="flexform.productName">
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.productPictureUrl">
+                <target>Bild URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.productDescription">
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingType">
+                <target>Bewertungs Typ</target>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingValue">
+                <target>Bewertungswert</target>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingBest">
+                <target>Beste Bewertung</target>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingWorst">
+                <target>Schlechteste Bewertung</target>
+            </trans-unit>
+            <trans-unit id="flexform.productRatingCount">
+                <target>Anzahl Bewertungen</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.websiteName">
+                <target>Webseiten Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.websiteAlternateName">
+                <target>Alternativer Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.websiteUrl">
+                <target>URL</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.businessType">
+                <target>Geschäfts Typ</target>
+            </trans-unit>
+                    <trans-unit id="flexform.businessTypePC">
+                          <target>Bitte wählen...</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessTypeAS">
+                          <target>Tierheim</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessTypeCC">
+                          <target>Kindertagesstätte</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.businessTypeEnt">
+                          <source>Entertainment</source>
+                    </trans-unit>
+            <trans-unit id="flexform.businessName">
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessUrl">
+                <target>URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessAlternateUrl">
+                <target>Alternative URL</target>
+            </trans-unit>
+
+            <trans-unit id="flexform.businessLogo">
+                <target>Logo</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessPictureUrl">
+                <target>Bild URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessDescription">
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessStreetAddress">
+                <target>Straße</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessLocality">
+                <target>Standort</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessRegion">
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessPostalCode">
+                <target>Postleitzahl</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessCountry">
+                <target>Land</target>
+            </trans-unit>
+                  <trans-unit id="flexform.businessCountryGermany">
+                       <target>Deutschland</target>
+                  </trans-unit>
+                  <trans-unit id="flexform.businessCountryAustria">
+                       <target>Österreich</target>
+                  </trans-unit>
+                  <trans-unit id="flexform.businessCountryUsa">
+                       <target>Vereinigte Staaten von Amerika</target>
+                  </trans-unit>
+            <trans-unit id="flexform.businessLatitude">
+                <target>Breitengrad</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessLongitude">
+                <target>Längengrad</target>
+            </trans-unit>
+
+            <trans-unit id="flexform.businessOpeningHours">
+                <target>Öffnungszeiten</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessTelephone">
+                <target>Telefon</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessContactType">
+                <target>Kontakt Art</target>
+            </trans-unit>
+            <trans-unit id="flexform.businessPriceRange">
+                <target>Preisspanne</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.eventType">
+                <target>Veranstaltungs Typ</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventName">
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventUrl">
+                <target>URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventPictureUrl">
+                <target>Bild URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventDescription">
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventStartDate">
+                <target>Datum Start</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventEndDate">
+                <target>Datum Ende</target>
+            </trans-unit>
+
+            <trans-unit id="flexform.eventLocationName">
+                <target>Standort Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventLocationType">
+                <target>Standort Typ</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventPerformerType">
+                <target>Künstler Typ</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventPerformer">
+                <target>Künstler</target>
+            </trans-unit>
+
+            <trans-unit id="flexform.eventStreetAddress">
+                <target>Straße</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventLocality">
+                <target>Standort</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventRegion">
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventPostalCode">
+                <target>Postleitzahl</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventCountry">
+                <target>Land</target>
+            </trans-unit>
+
+            <trans-unit id="flexform.eventOfferName">
+                <target>Angebots Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferPrice">
+                <target>Angebots Preis</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferPriceCurrency">
+                <target>Angebots Währung</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferValidFrom">
+                <target>Gültig ab</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferUrl">
+                <target>Angebots URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.eventOfferAvailability">
+                <target>Angebots Verfügbarkeit</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.organizationName">
+                <target>Organisation Name</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationUrl">
+                <target>URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationLogoUrl">
+                <target>Logo URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationDescription">
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationStreetAddress">
+                <target>Straße</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationLocality">
+                <target>Stadt</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationRegion">
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationPostalCode">
+                <target>Postleitzahl</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationCountry">
+                <target>Land</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationOpeningHours">
+                <target>Öffnungszeiten</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationClosingHours">
+                <target>Schließungszeiten</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationTelephone">
+                <target>Telefon</target>
+            </trans-unit>
+            <trans-unit id="flexform.organizationContactType">
+                <target>Kontakt Art</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.articleType">
+                <target>Artikel Typ</target>
+            </trans-unit>
+            <trans-unit id="flexform.articleHeadline">
+                <target>Überschrift</target>
+            </trans-unit>
+            <trans-unit id="flexform.articleImageUrl">
+                <target>Bild URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.articleAuthor">
+                <target>Autor</target>
+            </trans-unit>
+            <trans-unit id="flexform.articleDatePublished">
+                <target>Datum Veröffentlichung</target>
+            </trans-unit>
+            <trans-unit id="flexform.articlePublisher">
+                <target>Herausgeber</target>
+            </trans-unit>
+            <trans-unit id="flexform.articleDateModified">
+                <target>Datum Bearbeitung (empfohlen)</target>
+            </trans-unit>
+
+
+            <trans-unit id="flexform.jobpostingTitle">
+                <target>Job Titel</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingDescription">
+                <target>Job Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingOrganizationName">
+                <target>Firma</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingCompanyUrl">
+                <target>Firma URL</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingCompanyIndustry">
+                <target>Industrie</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingEmploymentType">
+                <target>Art der Beschäftigung</target>
+            </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypePC">
+                          <target>Bitte wählen...</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeFT">
+                          <target>Vollzeit</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypePT">
+                          <target>Teilzeit</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeContractor">
+                          <target>Unternehmer</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeTemporary">
+                          <target>Temporär</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeIntern">
+                          <target>Intern</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeVolunteer">
+                          <target>Freiwilliger</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypePD">
+                          <target>Pro Tag</target>
+                    </trans-unit>
+                    <trans-unit id="flexform.jobpostingEmploymentTypeOther">
+                          <target>Anderes</target>
+                    </trans-unit>
+            <trans-unit id="flexform.jobpostingWorkHours">
+                <target>Arbeitszeiten (z.B. 8-17 Uhr, Schicht)</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingDatePosted">
+                <target>Gepostet am</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingExpireDate">
+                <target>Ablaufdatum</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingValidThrough">
+                <target>Gültig bis</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingStreetAddress">
+                <target>Straße</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingLocality">
+                <target>Stadt</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingPostalCode">
+                <target>Postleitzahl</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingCountry">
+                <target>Land</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingRegion">
+                <target>Region</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryMinValue">
+                <target>Minimaler Wert</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryMaxValue">
+                <target>Maximaler Wert</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryCurrency">
+                <target>Währung</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSalaryPer">
+                <target>Pro...</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingResponsibilities">
+                <target>Verantwortungen</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingSkills">
+                <target>Kompetenzen</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingQualifications">
+                <target>Qualifikationen</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingEducationRequirements">
+                <target>Bildungs Ansprüche</target>
+            </trans-unit>
+            <trans-unit id="flexform.jobpostingExperienceRequirements">
+                <target>Erfahrungs Ansprüche</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

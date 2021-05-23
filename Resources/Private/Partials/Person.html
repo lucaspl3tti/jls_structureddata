@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+<f:format.raw>{</f:format.raw>
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "{settings.personName}",
+  <f:if condition="{settings.personAlternateName}">
+       "alternateName": "{settings.personAlternateName}",
+  </f:if>
+
+  "url": "{f:uri.typolink(parameter: settings.personUrl, absolute: 1)}",
+  "image": "{f:uri.image(src: settings.personPictureUrl, absolute: 1)}"
+
+  <f:if condition="{settings.personJobTitle}">
+       ,"jobTitle": "{settings.personJobTitle}"
+  </f:if>
+
+  <f:if condition="{settings.personCompany}">
+    "worksFor": {
+        "@type": "Organization",
+        "name": "{settings.personCompany}"
+    }
+  </f:if>
+}
+</script>
+
+

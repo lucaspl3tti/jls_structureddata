@@ -1,0 +1,46 @@
+<script type='application/ld+json'>
+<f:format.raw>{</f:format.raw>
+  "@context": "http://www.schema.org",
+  "@type": "Event",
+  "name": "{settings.eventName}",
+  "url": "{f:uri.typolink(parameter: settings.eventUrl, absolute: 1)}",
+  <f:if condition="{settings.eventPictureUrl}">
+     "image": "{f:uri.image(src: settings.eventPictureUrl, absolute: 1)}",
+  </f:if>
+  <f:if condition="{settings.eventDescription}">
+     "description": "{settings.eventDescription}",
+  </f:if>
+
+  "startDate": "{f:format.date(date: settings.eventStartDate, format: "c")}",
+  "endDate": "{f:format.date(date: settings.eventEndDate, format: "c")}",
+
+  "performer": <f:format.raw>{</f:format.raw>
+      "@type": "{settings.eventPerformerType}",
+       "name": "{settings.eventPerformer}"
+  },
+
+  "location": <f:format.raw>{</f:format.raw>
+    "@type": "Place",
+    "name": "{settings.eventLocationName}",
+    "address": <f:format.raw>{</f:format.raw>
+      "@type": "PostalAddress",
+      "streetAddress": "{settings.eventStreetAddress}",
+      "addressLocality": "{settings.eventLocality}",
+      "addressRegion": "{settings.eventRegion}",
+      "postalCode": "{settings.eventPostalCode}",
+      "addressCountry": "{settings.eventCountry}"
+    }
+  },
+  <f:if condition="{settings.eventOfferName}">
+        "offers": <f:format.raw>{</f:format.raw>
+            "@type": "Offer"
+            ,"name": "{settings.eventOfferName}"
+            ,"price": "{settings.eventOfferPrice}"
+            ,"priceCurrency": "{settings.eventOfferPriceCurrency}"
+            ,"validFrom": "{f:format.date(date: settings.eventOfferValidFrom, format: "c")}"
+            ,"url": "<f:uri.typolink parameter="{settings.eventOfferUrl}" absolute="true"/>"
+            ,"availability": "{settings.eventOfferAvailability}"
+        }
+  </f:if>
+}
+ </script>

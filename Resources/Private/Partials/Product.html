@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+<f:format.raw>{</f:format.raw>
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "{settings.productName}"
+  <f:if condition="{settings.productBrand}">
+    ,"brand": "{settings.productBrand}"
+  </f:if>
+
+  <f:if condition="{settings.productPictureUrl}">
+     ,"image": "{f:uri.image(src: settings.productPictureUrl, absolute: 1)}"
+  </f:if>
+
+  <f:if condition="{settings.productDescription}">
+     ,"description": "{settings.productDescription}"
+  </f:if>
+
+
+<f:if condition="{settings.productRatingBest}">
+        ,"aggregateRating": <f:format.raw>{</f:format.raw>
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "bestRating": "{settings.productRatingBest}",
+            "worstRating": "{settings.productRatingWorst}",
+            "ratingCount": "{settings.productRatingCount}"
+        }
+  </f:if>
+}
+</script>
+

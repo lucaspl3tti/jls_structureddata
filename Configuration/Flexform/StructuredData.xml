@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>
+                        LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.tab.general
+                    </sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.switchableControllerActions>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action
+                            </label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.0
+                                        </numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.1
+                                        </numIndex>
+                                        <numIndex index="1">Product</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.2
+                                        </numIndex>
+                                        <numIndex index="1">Website</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.3
+                                        </numIndex>
+                                        <numIndex index="1">Person</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.4
+                                        </numIndex>
+                                        <numIndex index="1">Business</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.5
+                                        </numIndex>
+                                        <numIndex index="1">Event</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.6
+                                        </numIndex>
+                                        <numIndex index="1">Organization</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.7
+                                        </numIndex>
+                                        <numIndex index="1">Article</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">
+                                            LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.Action.8
+                                        </numIndex>
+                                        <numIndex index="1">JobPosting</numIndex>
+                                    </numIndex>
+                                </items>
+                                <minitems>1</minitems>
+                                <maxitems>1</maxitems>
+                                <renderType>selectSingle</renderType>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.switchableControllerActions>
+                    <settings.personName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.personName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Person</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.personName>
+                    <settings.personAlternateName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.personAlternateName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Person</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.personAlternateName>
+                    <settings.personUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.personUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Person</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.personUrl>
+                    <settings.personPictureUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.personPictureUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Person</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>jpg, jpeg, gif, png</allowed>
+                                <show_thumbs>1</show_thumbs>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.personPictureUrl>
+                    <settings.personJobTitle>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.personJobTitle
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Person</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.personJobTitle>
+                    <settings.personCompany>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.personCompany
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Person</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.personCompany>
+
+
+                    <settings.productName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.productName>
+                    <settings.productBrand>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productBrand
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.productBrand>
+                    <settings.productPictureUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productPictureUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>jpg, jpeg, gif, png</allowed>
+                                <show_thumbs>1</show_thumbs>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.productPictureUrl>
+                    <settings.productDescription>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productDescription
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.productDescription>
+                    <settings.productRatingBest>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productRatingBest
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">1</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">2</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">3</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">4</numIndex>
+                                        <numIndex index="1">4</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">5</numIndex>
+                                        <numIndex index="1">5</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.productRatingBest>
+                    <settings.productRatingWorst>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productRatingWorst
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">1</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">2</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">3</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">4</numIndex>
+                                        <numIndex index="1">4</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">5</numIndex>
+                                        <numIndex index="1">5</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.productRatingWorst>
+                    <settings.productRatingCount>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.productRatingCount
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Product</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.productRatingCount>
+
+
+                    <settings.websiteName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.websiteName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Website</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.websiteName>
+                    <settings.websiteAlternateName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.websiteAlternateName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Website</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.websiteAlternateName>
+                    <settings.websiteUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.websiteUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Website</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.websiteUrl>
+
+
+                    <settings.eventName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventName>
+                    <settings.eventUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.eventUrl>
+                    <settings.eventPictureUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventPictureUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>jpg, jpeg, gif, png</allowed>
+                                <show_thumbs>1</show_thumbs>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.eventPictureUrl>
+                    <settings.eventDescription>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventDescription
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.eventDescription>
+                    <settings.eventStartDate>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventStartDate
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date, required</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.eventStartDate>
+                    <settings.eventEndDate>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventEndDate
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date, required</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.eventEndDate>
+                    <settings.eventLocationName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventLocationName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventLocationName>
+                    <settings.eventLocationType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventLocationType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.eventLocationType>
+                    <settings.eventPerformer>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventPerformer
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.eventPerformer>
+                    <settings.eventPerformerType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventPerformerType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Person</numIndex>
+                                        <numIndex index="1">Person</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Group</numIndex>
+                                        <numIndex index="1">Group</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Dance Group</numIndex>
+                                        <numIndex index="1">Dance Group</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">Music Group</numIndex>
+                                        <numIndex index="1">Music Group</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">Theather Group</numIndex>
+                                        <numIndex index="1">5</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.eventPerformerType>
+                    <settings.eventStreetAddress>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventStreetAddress
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventStreetAddress>
+                    <settings.eventLocality>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventLocality
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventLocality>
+                    <settings.eventRegion>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventRegion
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventRegion>
+                    <settings.eventPostalCode>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventPostalCode
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventPostalCode>
+                    <settings.eventCountry>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventCountry
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.eventCountry>
+                    <settings.eventOfferName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventOfferName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.eventOfferName>
+                    <settings.eventOfferPrice>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventOfferPrice
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.eventOfferPrice>
+                    <settings.eventOfferCurrency>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventOfferPriceCurrency
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">EURO</numIndex>
+                                        <numIndex index="1">EURO</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">USD</numIndex>
+                                        <numIndex index="1">USD</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">GBP</numIndex>
+                                        <numIndex index="1">GBP</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">CAD</numIndex>
+                                        <numIndex index="1">CAD</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.eventOfferCurrency>
+                    <settings.eventOfferValidFrom>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventOfferValidFrom
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.eventOfferValidFrom>
+                    <settings.eventOfferUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventOfferUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.eventOfferUrl>
+                    <settings.eventOfferAvailability>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.eventOfferAvailability
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Event</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                <numIndex index="1" type="array">
+                                    <numIndex index="0">In stock</numIndex>
+                                    <numIndex index="1">In stock</numIndex>
+                                </numIndex>
+                                <numIndex index="2" type="array">
+                                    <numIndex index="0">Sold out</numIndex>
+                                    <numIndex index="1">Sold out</numIndex>
+                                </numIndex>
+                                <numIndex index="3" type="array">
+                                    <numIndex index="0">Pre-order</numIndex>
+                                    <numIndex index="1">Pre-order</numIndex>
+                                </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.eventOfferAvailability>
+
+
+
+
+                    <settings.businessType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessTypePC</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessTypeAS</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessTypeCC</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessTypeEnt</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.businessType>
+                    <settings.businessName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessName>
+                    <settings.businessUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.businessUrl>
+                    <settings.businessAlternateUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessAlternateUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.businessAlternateUrl>
+                    <settings.businessPictureUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessPictureUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>jpg, jpeg, gif, png</allowed>
+                                <show_thumbs>1</show_thumbs>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessPictureUrl>
+                    <settings.businessDescription>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessDescription
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.businessDescription>
+                    <settings.businessStreetAddress>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessStreetAddress
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessStreetAddress>
+                    <settings.businessLocality>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessLocality
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessLocality>
+                    <settings.businessRegion>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessRegion
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.businessRegion>
+                    <settings.businessPostalCode>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessPostalCode
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessPostalCode>
+                    <settings.businessCountry>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessCountry
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessCountryGermany</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessCountryAustria</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessCountryUsa</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.businessCountry>
+                    <settings.businessLatitude>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessLatitude
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.businessLatitude>
+                    <settings.businessLongitude>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessLongitude
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.businessLongitude>
+                    <settings.businessOpeningHours>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessOpeningHours
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">00.00</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">01.00</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">02.00</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">03.00</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">04.00</numIndex>
+                                        <numIndex index="1">4</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">05.00</numIndex>
+                                        <numIndex index="1">5</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">06.00</numIndex>
+                                        <numIndex index="1">6</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">07.00</numIndex>
+                                        <numIndex index="1">7</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">08.00</numIndex>
+                                        <numIndex index="1">8</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9" type="array">
+                                        <numIndex index="0">09.00</numIndex>
+                                        <numIndex index="1">9</numIndex>
+                                    </numIndex>
+                                    <numIndex index="10" type="array">
+                                        <numIndex index="0">10.00</numIndex>
+                                        <numIndex index="1">10</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11" type="array">
+                                        <numIndex index="0">11.00</numIndex>
+                                        <numIndex index="1">11</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12" type="array">
+                                        <numIndex index="0">12.00</numIndex>
+                                        <numIndex index="1">12</numIndex>
+                                    </numIndex>
+                                    <numIndex index="13" type="array">
+                                        <numIndex index="0">13.00</numIndex>
+                                        <numIndex index="1">13</numIndex>
+                                    </numIndex>
+                                    <numIndex index="14" type="array">
+                                        <numIndex index="0">14.00</numIndex>
+                                        <numIndex index="1">14</numIndex>
+                                    </numIndex>
+                                    <numIndex index="15" type="array">
+                                        <numIndex index="0">15.00</numIndex>
+                                        <numIndex index="1">15</numIndex>
+                                    </numIndex>
+                                    <numIndex index="16" type="array">
+                                        <numIndex index="0">16.00</numIndex>
+                                        <numIndex index="1">16</numIndex>
+                                    </numIndex>
+                                    <numIndex index="17" type="array">
+                                        <numIndex index="0">17.00</numIndex>
+                                        <numIndex index="1">17</numIndex>
+                                    </numIndex>
+                                    <numIndex index="18" type="array">
+                                        <numIndex index="0">18.00</numIndex>
+                                        <numIndex index="1">18</numIndex>
+                                    </numIndex>
+                                    <numIndex index="19" type="array">
+                                        <numIndex index="0">19.00</numIndex>
+                                        <numIndex index="1">19</numIndex>
+                                    </numIndex>
+                                    <numIndex index="20" type="array">
+                                        <numIndex index="0">20.00</numIndex>
+                                        <numIndex index="1">20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="21" type="array">
+                                        <numIndex index="0">21.00</numIndex>
+                                        <numIndex index="1">21</numIndex>
+                                    </numIndex>
+                                    <numIndex index="22" type="array">
+                                        <numIndex index="0">22.00</numIndex>
+                                        <numIndex index="1">22</numIndex>
+                                    </numIndex>
+                                    <numIndex index="23" type="array">
+                                        <numIndex index="0">23.00</numIndex>
+                                        <numIndex index="1">23</numIndex>
+                                    </numIndex>
+                                </items>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessOpeningHours>
+                    <settings.businessClosingHours>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessClosingHours
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">00.00</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">01.00</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">02.00</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">03.00</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">04.00</numIndex>
+                                        <numIndex index="1">4</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">05.00</numIndex>
+                                        <numIndex index="1">5</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">06.00</numIndex>
+                                        <numIndex index="1">6</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">07.00</numIndex>
+                                        <numIndex index="1">7</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">08.00</numIndex>
+                                        <numIndex index="1">8</numIndex>
+                                    </numIndex>
+                                    <numIndex index="9" type="array">
+                                        <numIndex index="0">09.00</numIndex>
+                                        <numIndex index="1">9</numIndex>
+                                    </numIndex>
+                                    <numIndex index="10" type="array">
+                                        <numIndex index="0">10.00</numIndex>
+                                        <numIndex index="1">10</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11" type="array">
+                                        <numIndex index="0">11.00</numIndex>
+                                        <numIndex index="1">11</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12" type="array">
+                                        <numIndex index="0">12.00</numIndex>
+                                        <numIndex index="1">12</numIndex>
+                                    </numIndex>
+                                    <numIndex index="13" type="array">
+                                        <numIndex index="0">13.00</numIndex>
+                                        <numIndex index="1">13</numIndex>
+                                    </numIndex>
+                                    <numIndex index="14" type="array">
+                                        <numIndex index="0">14.00</numIndex>
+                                        <numIndex index="1">14</numIndex>
+                                    </numIndex>
+                                    <numIndex index="15" type="array">
+                                        <numIndex index="0">15.00</numIndex>
+                                        <numIndex index="1">15</numIndex>
+                                    </numIndex>
+                                    <numIndex index="16" type="array">
+                                        <numIndex index="0">16.00</numIndex>
+                                        <numIndex index="1">16</numIndex>
+                                    </numIndex>
+                                    <numIndex index="17" type="array">
+                                        <numIndex index="0">17.00</numIndex>
+                                        <numIndex index="1">17</numIndex>
+                                    </numIndex>
+                                    <numIndex index="18" type="array">
+                                        <numIndex index="0">18.00</numIndex>
+                                        <numIndex index="1">18</numIndex>
+                                    </numIndex>
+                                    <numIndex index="19" type="array">
+                                        <numIndex index="0">19.00</numIndex>
+                                        <numIndex index="1">19</numIndex>
+                                    </numIndex>
+                                    <numIndex index="20" type="array">
+                                        <numIndex index="0">20.00</numIndex>
+                                        <numIndex index="1">20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="21" type="array">
+                                        <numIndex index="0">21.00</numIndex>
+                                        <numIndex index="1">21</numIndex>
+                                    </numIndex>
+                                    <numIndex index="22" type="array">
+                                        <numIndex index="0">22.00</numIndex>
+                                        <numIndex index="1">22</numIndex>
+                                    </numIndex>
+                                    <numIndex index="23" type="array">
+                                        <numIndex index="0">23.00</numIndex>
+                                        <numIndex index="1">23</numIndex>
+                                    </numIndex>
+                                </items>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessClosingHours>
+                    <settings.businessPriceRange>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessPriceRange
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.businessPriceRange>
+                    <settings.businessContactType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessContactType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.businessContactType>
+                    <settings.businessTelephone>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessTelephone
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.businessTelephone>
+
+
+                    <settings.businessInstagram>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessInstagram
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.businessInstagram>
+                    <settings.businessFacebook>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessFacebook
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.businessFacebook>
+                    <settings.businessTwitter>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.businessTwitter
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Business</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.businessTwitter>
+
+
+
+
+
+                    <settings.organizationName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.organizationName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Organization</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.organizationName>
+                    <settings.organizationUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.organizationUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Organization</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.organizationUrl>
+                    <settings.organizationLogoUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.organizationLogoUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Organization</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>jpg, jpeg, gif, png</allowed>
+                                <show_thumbs>1</show_thumbs>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.organizationLogoUrl>
+                    <settings.organizationDescription>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.organizationDescription
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Organization</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.organizationDescription>
+                    <settings.organizationTelephone>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.organizationTelephone
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Organization</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.organizationTelephone>
+                    <settings.organizationContactType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.organizationContactType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Organization</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.organizationContactType>
+
+
+                    <settings.articleType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articleType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Newsarticle</numIndex>
+                                        <numIndex index="1">Newsarticle</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">BlogPosting</numIndex>
+                                        <numIndex index="1">BlogPosting</numIndex>
+                                    </numIndex>
+                                </items>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.articleType>
+                    <settings.articleHeadline>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articleHeadline
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.articleHeadline>
+                    <settings.articleImageUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articleImageUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <eval>required</eval>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>jpg, jpeg, gif, png</allowed>
+                                <show_thumbs>1</show_thumbs>
+                                <minitems>0</minitems>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.articleImageUrl>
+                    <settings.articleAuthor>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articleAuthor
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.articleAuthor>
+                    <settings.articleDatePublished>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articleDatePublished
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date, required</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.articleDatePublished>
+                    <settings.articlePublisher>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articlePublisher
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.articlePublisher>
+                    <settings.articleDateModified>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.articleDateModified
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:Article</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.articleDateModified>
+
+
+                    <settings.jobpostingTitle>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingTitle
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingTitle>
+                    <settings.jobpostingDescription>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingDescription
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <eval>required</eval>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                                <defaultExtras>richtext[*]:rte_transform[mode=ts_css]</defaultExtras>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingDescription>
+                    <settings.jobpostingOrganizationName>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingOrganizationName
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingOrganizationName>
+                    <settings.jobpostingCompanyUrl>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingCompanyUrl
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <renderType>inputLink</renderType>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingCompanyUrl>
+                    <settings.jobpostingCompanyIndustry>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingCompanyIndustry
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingCompanyIndustry>
+
+
+                    <settings.jobpostingEmploymentType>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentType
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypePC</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypeFT</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypePT</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypeContractor</numIndex>
+                                        <numIndex index="1">3</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypeTemporary</numIndex>
+                                        <numIndex index="1">4</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypeIntern</numIndex>
+                                        <numIndex index="1">5</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypeVolunteer</numIndex>
+                                        <numIndex index="1">6</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypePD</numIndex>
+                                        <numIndex index="1">7</numIndex>
+                                    </numIndex>
+                                    <numIndex index="8" type="array">
+                                        <numIndex index="0">LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEmploymentTypeOther</numIndex>
+                                        <numIndex index="1">8</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingEmploymentType>
+                    <settings.jobpostingWorkHours>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingWorkHours
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingWorkHours>
+                    <settings.jobpostingDatePosted>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingDatePosted
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date, required</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingDatePosted>
+                    <settings.jobpostingExpireDate>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingExpireDate
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <eval>date</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingExpireDate>
+                    <settings.jobpostingValidThrough>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingValidThrough
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <eval>required</eval>
+                                <type>input</type>
+                                <eval>date</eval>
+                                <checkbox>1</checkbox>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingValidThrough>
+                    <settings.jobpostingStreetAddress>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingStreetAddress
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingStreetAddress>
+                    <settings.jobpostingLocality>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingLocality
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingLocality>
+                    <settings.jobpostingPostalCode>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingPostalCode
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingPostalCode>
+                    <settings.jobpostingCountry>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingCountry
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <eval>required</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingCountry>
+                    <settings.jobpostingRegion>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingRegion
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingRegion>
+
+
+                    <settings.jobpostingSalaryMinValue>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingSalaryMinValue
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingSalaryMinValue>
+                    <settings.jobpostingSalaryMaxValue>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingSalaryMaxValue
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingSalaryMaxValue>
+                    <settings.jobpostingSalaryCurrency>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingSalaryCurrency
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">USD</numIndex>
+                                        <numIndex index="1">USD</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">EURO</numIndex>
+                                        <numIndex index="1">EURO</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">GBP</numIndex>
+                                        <numIndex index="1">GBP</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">CAD</numIndex>
+                                        <numIndex index="1">CAD</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingSalaryCurrency>
+                    <settings.jobpostingSalaryPer>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingSalaryPer
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Hour</numIndex>
+                                        <numIndex index="1">Hour</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Week</numIndex>
+                                        <numIndex index="1">Week</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">Month</numIndex>
+                                        <numIndex index="1">Month</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">Year</numIndex>
+                                        <numIndex index="1">Year</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingSalaryPer>
+
+
+                    <settings.jobpostingResponsibilities>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingResponsibilities
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingResponsibilities>
+                    <settings.jobpostingSkills>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingSkills
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingSkills>
+                    <settings.jobpostingQualifications>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingQualifications
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingQualifications>
+                    <settings.jobpostingEducationRequirements>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingEducationRequirements
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingEducationRequirements>
+                    <settings.jobpostingExperienceRequirements>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:jls_structureddata/Resources/Private/Language/locallang_db.xlf:flexform.jobpostingExperienceRequirements
+                            </label>
+                            <displayCond>FIELD:settings.switchableControllerActions:=:JobPosting</displayCond>
+                            <config>
+                                <type>text</type>
+                                <cols>24</cols>
+                                <rows>3</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.jobpostingExperienceRequirements>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

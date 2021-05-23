@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+<f:format.raw>{</f:format.raw>
+  "@context": "http://schema.org",
+  "@type": "{settings.articleType}",
+  "headline": "{settings.articleHeadline}",
+  "image": "{f:uri.image(src: settings.articleImageUrl, absolute: 1)}",
+  "author": "{settings.articleAuthor}",
+
+  "datePublished": "{f:format.date(date: settings.articleDatePublished, format: "c")}",
+
+  "publisher": "{settings.articlePublisher}"
+  <f:if condition="{settings.articleDateModified}">
+    ,"dateModified": "{f:format.date(date: settings.articleDateModified, format: "c")}"
+  </f:if>
+}
+</script>
+

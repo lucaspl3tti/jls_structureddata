@@ -1,0 +1,61 @@
+<script type='application/ld+json'>
+<f:format.raw>{</f:format.raw>
+  "@context": "http://www.schema.org",
+  "@type": "LocalBusiness",
+  "name": "{settings.businessName}",
+  "url": "{f:uri.typolink(parameter: settings.businessUrl, absolute: 1)}",
+  <f:if condition="{settings.businessAlternateUrl}">
+    "sameAs": [
+     "{f:uri.typolink(parameter: settings.businessAlternateUrl, absolute: 1)}",
+    ],
+  </f:if>
+
+  <f:if condition="{settings.businessPictureUrl}">
+      "image": "{f:uri.image(src: settings.businessPictureUrl, absolute: 1)}",
+  </f:if>
+
+  <f:if condition="{settings.businessDescription}">
+      "description": "{settings.businessDescription}",
+  </f:if>
+
+  "telephone": "{settings.businessTelephone}",
+  <f:if condition="{settings.businessPriceRange}">
+      "priceRange": "{settings.businessPriceRange}",
+  </f:if>
+
+  "address": <f:format.raw>{</f:format.raw>
+    "@type": "PostalAddress",
+    "streetAddress": "{settings.businessStreetAddress}",
+    "addressLocality": "{settings.businessLocality}",
+    <f:if condition="{settings.businessRegion}">
+        "addressRegion": "{settings.businessRegion}",
+    </f:if>
+    "postalCode": "{settings.businessPostalCode}",
+    "addressCountry": "{settings.businessCountry}"
+  },
+  <f:if condition="{settings.businessLatitude}">
+      "latitude": "{settings.businessLatitude}",
+  </f:if>
+  <f:if condition="{settings.businessLongitude}">
+      "longitude": "{settings.businessLongitude}",
+  </f:if>
+
+
+  "openingHoursSpecification": <f:format.raw>{</f:format.raw>
+      "@type": "OpeningHoursSpecification",
+      "opens": "{settings.businessOpeningHours}",
+      "closes": "{settings.businessClosingHours}"
+  }
+
+   <f:if condition="{settings.businessInstagram}">
+     ,"Instagram": "{settings.businessInstagram}"
+   </f:if>
+   <f:if condition="{settings.businessFacebook}">
+     ,"Facebook": "{settings.businessFacebook}"
+   </f:if>
+   <f:if condition="{settings.businessTwitter}">
+     ,"Twitter": "{settings.businessTwitter}"
+   </f:if>
+  }
+ </script>
+

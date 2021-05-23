@@ -1,0 +1,84 @@
+<script type="application/ld+json">
+<f:format.raw>{</f:format.raw>
+  "@context": "http://schema.org/",
+  "@type": "JobPosting",
+  "title": "{settings.jobpostingTitle}",
+  "description": "{settings.jobpostingDescription}",
+  "hiringOrganization" : <f:format.raw>{</f:format.raw>
+    "@type": "Organization",
+    "name": "{settings.jobpostingOrganizationName}"
+    <f:if condition="{settings.jobpostingCompanyUrl}">
+    ,"url": "{f:uri.typolink(parameter: settings.jobpostingCompanyUrl, absolute: 1)}"
+    </f:if>
+    <f:if condition="{settings.jobpostingCompanyIndustry}">
+    ,"industry": "{settings.jobpostingCompanyIndustry}"
+    </f:if>
+  },
+  <f:if condition="{settings.jobpostingEmploymentType}">
+    "employmentType": "{settings.jobpostingEmploymentType}",
+  </f:if>
+  <f:if condition="{settings.jobpostingWorkHours}">
+    "workHours": "{settings.jobpostingWorkHours}",
+  </f:if>
+  "datePosted": "{f:format.date(date: settings.jobpostingDatePosted, format: "c")}",
+  <f:if condition="{settings.jobpostingExpireDate}">
+    "expireDate": "{f:format.date(date: settings.jobpostingExpireDate, format: "c")}",
+  </f:if>
+  "validThrough": "{f:format.date(date: settings.jobpostingValidThrough, format: "c")}",
+
+
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+          "streetAddress": "{settings.jobpostingStreetAddress}",
+          "addressLocality": "{settings.jobpostingLocality}",
+          "postalCode": "{settings.jobpostingPostalCode}",
+          "addressCountry": "{settings.jobpostingCountry}"
+          <f:if condition="{settings.jobpostingRegion}">
+            ,"addressRegion": "{settings.jobpostingRegion}"
+          </f:if>
+    }
+  }
+    <f:if condition="{settings.jobpostingSalaryCurrency}">
+        ,"baseSalary": <f:format.raw>{</f:format.raw>
+            "@type": "MonetaryAmount",
+            "currency": "{settings.jobpostingSalaryCurrency}",
+            <f:if condition="{settings.jobpostingSalaryMinValue}">
+                  <f:if condition="{settings.jobpostingSalaryMaxValue}">
+                    <f:then>
+                      "value": <f:format.raw>{</f:format.raw>
+                           "@type": "QuantitativeValue",
+                           "minValue": "{settings.jobpostingSalaryMinValue}",
+                           "maxValue": "{settings.jobpostingSalaryMaxValue}"
+                          <f:if condition="{settings.jobpostingSalaryPer}">
+                              ,"unitText": "{settings.jobpostingSalaryPer}"
+                          </f:if>
+                         }
+                     </f:then>
+                     <f:else>
+                        "value": "{settings.jobpostingSalaryMinValue}"
+                     </f:else>
+                   </f:if>
+
+            </f:if>
+            }
+    </f:if>
+
+  <f:if condition="{settings.jobpostingResponsibilities}">
+      ,"responsibilities": "{settings.jobpostingResponsibilities}"
+  </f:if>
+  <f:if condition="{settings.jobpostingSkills}">
+      ,"skills": "{settings.jobpostingSkills}"
+  </f:if>
+  <f:if condition="{settings.jobpostingQualifications}">
+      ,"qualifications": "{settings.jobpostingQualifications}"
+  </f:if>
+  <f:if condition="{settings.jobpostingEducationRequirements}">
+      ,"educationRequirements": "{settings.jobpostingEducationRequirements}"
+  </f:if>
+  <f:if condition="{settings.jobpostingExperienceRequirements}">
+      ,"experienceRequirements": "{settings.jobpostingExperienceRequirements}"
+  </f:if>
+}
+</script>

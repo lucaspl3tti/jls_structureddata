@@ -1,0 +1,19 @@
+{
+  "name": "lucaspl3tti/jls-structureddata",
+  "type": "typo3-cms-extension",
+  "description": "This typo3 extension helps with adding strcutred data to a project.",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "1.5.5",
+    "phploc/phploc": "2.0.6",
+    "phpmd/phpmd": "2.1.1",
+    "sebastian/phpcpd": "2.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "lucaspl3tti\\jls_structureddata\\": "Classes/"
+    }
+  },
+  "config": {
+    "bin-dir": "Build/bin"
+  }
+}

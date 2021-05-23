@@ -1,0 +1,11 @@
+<script type="application/ld+json">
+<f:format.raw>{</f:format.raw>
+  "@context": "http://schema.org/",
+  "@type": "Website",
+  "name": "{settings.websiteName}",
+  <f:if condition="{settings.websiteAlternateName}">
+     "alternateName": "{settings.websiteAlternateName}",
+  </f:if>
+  "url": "{f:uri.typolink(parameter: settings.websiteUrl, absolute: 1)}"
+ }
+</script>
